@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+
+}
+
+html{
+    overflow-y: scroll;
+    scrollbar-color: rgb(0, 0, 0) rgb(107, 107, 107);
+    scrollbar-width: thin;
+    
+}
+a:hover{
+    cursor: pointer;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[href] {
+    text-decoration: none;
+    color: black;
+}
+
+[href]:visited {
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 { 
+    margin: 0; 
+}
+
+body {
+    font-family: 'PT Serif', serif, sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    top: 0;
+    width: 100%;
+    scrollbar-width: thin;
+}
+
+
+/* Nav-------------------------------------------------------------------------- */
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 50px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.nav-link {
+    padding: 1.5rem;  
+}
+
+.dd-link { 
+    padding: 0.4rem;
+    text-align: left;
+}
+
+.dd-link:hover {
+    background-color: black; 
+    color: white; 
+}
+
+.nav-link:hover {
+    background-color: black; 
+    color: white; 
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+/* Main Section ------------------------------------------------------------------------------------------ */
+.main-section {
+    height: 100vh;
+    scroll-snap-align: start;
+    padding-top:100px;  
+}
+
+#header-media{
+    z-index: 1;
+}
+
+#welcome-section{
+    padding: 6rem 2rem 2rem 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem 3rem 1rem 3rem;
+    /* margin-top: 3rem; */
+}
+
+
+
+/* Work experience section ----------------------------------------------------------------------------- */
+#Work_Experience{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    padding-top: 8rem;
+}
+
+.section-header {
+    margin-left: 2rem;
+}
+
+#flex-container-work-experience{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.3s;
+    max-width: 30%;
+    height: 500px;
+    padding: 1rem;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+  
+.container-img {
+    height: 200px;
+    text-align: center;   
+}
+
+.container-info ul{
+    padding: 1.5rem;
+    list-style-type: none;
+}
+
+/* Education section --------------------------------------------------------------------------*/
+#Education{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    padding-top: 8rem;
+}
+
+#flex-container-education{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Skills Section ---------------------------------------------------------------------------- */
+#Skills{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    padding-top: 8rem;
+}
+
+#flex-container-skills{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.header-skill{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-skills {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: 0.3s;
+    max-width: 33%;
+    width: 32%;
+    height: 500px;
+}
+
+.card-skills ul {
+    list-style-type: none;
+}
+  
+.card-skills:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+.skills{
+    margin-top: 1rem;
+}
+
+.skills li{
+    margin-top: 1rem;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+}
+  
+#myBar {
+    width: 20%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Stepper-------------------------------------------------------------------------------------------------*/
+#stepper{
+    position: fixed;
+    bottom: 40vh;
+    right: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+}
+
+.step {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.step-tiny{
+    height: 4px;
+    width: 4px;
+    margin: 0 2px;
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.step-medium{
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.step-normal{
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.step-selected{
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+/* dropDown button------------------------------------------------------------------ */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content:space-around;
+    justify-content: start;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#wd {
+    text-align: center;
+    margin-left: 15rem;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#me {
+    text-indent: 5rem;
+    margin-top: 2rem;
+    text-align: justify;
+    padding: 2rem 4rem 0rem 4rem;
+}
+
+/* others-------------------------------------------------------------------------------- */
+footer{
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+code {
+    display: block;
+    text-align: left;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    background-color: #0e0e0e;
+    padding: 15px;
+    margin: 2rem 4rem 2rem 4rem;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 8px  16px 0px rgba(0,0,0,0.2);
+}
