@@ -170,6 +170,10 @@ h1 {
     list-style-type: none;
 }
 
+.card-title{
+    font-size: 1.3em;
+}
+
 /* Education section --------------------------------------------------------------------------*/
 #Education{
     display: flex;
@@ -238,16 +242,123 @@ h1 {
     margin-top: 1rem;
 }
 
-#myProgress {
+.myProgress {
+    border-width: 1px;
+    border-style: solid;
     width: 100%;
     background-color: grey;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.19);
 }
   
-#myBar {
+#myHtmlBar {
+    width: 60%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myJsBar {
+    width: 50%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myPhpBar {
+    width: 40%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#mySqlBar {
+    width: 40%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myLaravelBar {
+    width: 50%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myReactBar {
+    width: 65%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myReduxBar {
+    width: 60%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+#myReduxSagaBar {
+    width: 50%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myMaterialBar {
+    width: 60%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myJqueryBar {
     width: 20%;
     height: 8px;
     background-color: rgb(0, 0, 0);
 }
+
+#myCypressBar {
+    width: 20%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myGitBar {
+    width: 50%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myAwsEc2Bar {
+    width: 70%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myLinuxCliBar {
+    width: 60%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#myIredMailBar {
+    width: 40%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Certifications */
+
+#Certifications{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    padding-top: 8rem;
+}
+
+#Certifications ul{
+    list-style-type: none;
+}
+
+#Certifications-container{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 2rem;
+}
+
 
 
 /* Stepper-------------------------------------------------------------------------------------------------*/
