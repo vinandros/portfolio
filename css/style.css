@@ -104,7 +104,7 @@ code {
     font-size: 2rem;
 }
 
-@media(max-width:360px){
+@media(max-width:600px){
     .main-section{
         padding: 1rem 0rem;
     }
@@ -181,7 +181,7 @@ code {
     font-size: 1.3em;
 }
 
-@media(max-width:360px){
+@media(max-width:600px){
     .card {
         padding: 0rem 0rem 5rem 0rem;
         max-width: auto;
@@ -382,7 +382,7 @@ code {
     margin: 0.5rem;
 }
 
-@media(max-width:360px){
+@media(max-width:600px){
     .card-cert ul{
         width: auto;
         height: auto;
@@ -462,7 +462,7 @@ code {
     color: white;
 }
 
-@media(max-width:360px){
+@media(max-width:600px){
     .card-project {
         margin-top: 0.5rem;
     }
@@ -480,7 +480,7 @@ code {
     padding: 1rem;
 }
 
-@media(max-width:360px){
+@media(max-width:600px){
     #social-media {
         margin-left: 10vw;
     }
