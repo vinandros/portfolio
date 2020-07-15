@@ -24,32 +24,12 @@
 </head>
 
 <body>
-  <header>
-    <nav id="navbar" >
-        <a class="nav-link" href="#welcome-section"> Who I am?</a>
-        <div class="dropdown">
-          <a class="dropdown nav-link" href="#Work_Experience">Resume</a>
-          <nav class="dropdown-content">
-            <a class="dd-link" href="#Work_Experience">Work Experience</a>
-            <a class="dd-link" href="#Education">Education</a>
-            <a class="dd-link" href="#Skills">Skills</a>
-            <a class="dd-link" href="#Certifications">Certifications</a>
-            <a class="dd-link" href="#Lenguages">Lenguages</a>
-          </nav>
-        </div>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link" href="#social-media">Contact</a>
-      </ul>
-    </nav>
-    <div id="header-media">
-      <a class="profile-link" target="_blank" href="https://github.com/vinandros">GitHub</a>
-      <a class="profile-link" target="_blank" href="https://www.linkedin.com/in/kevin-alvaradov/">Linkedin</a>
-    </div>
-  </header>
-
   <main>
     <section id="welcome-section" class="main-section">
-      <h1>Hi I am Kevin</h1>
+      <div id="header-media">
+        <a class="text-size-title" href="#welcome-section"><img id="main-logo"  src="img/vin-andros-log.png" alt="Vin Andros"> Vin Andros </a>
+      </div>  
+      <h1>Hi, I am Kevin</h1>
       <p id="wd">a web developer</p>
       <p id="me">
         I'm from Costa Rica, I came from a little place called La Tigra. 
@@ -373,36 +353,36 @@
         <h2>My Certifications</h2>
       </div>
       <div id="Certifications-container">
-        <div class="card">
+        <div class="card-cert">
           <ul>
-            <li>
+            <li class="cert-logo">
               <img src="img/cisco.png.webp" alt="cisco logo">
             </li>
-            <li>
+            <li class="cert-info">
               <strong>September 2013</strong>
               CCNA 2 Discovery: Working at small-to-Medium Business or ISP.
             </li>
           </ul>
         </div>
   
-        <div class="card">
+        <div class="card-cert">
           <ul>
-            <li>
+            <li class="cert-logo">
               <img src="img/cisco.png.webp" alt="cisco logo">
             </li>
-            <li>
+            <li class="cert-info">
               <strong>May 2013</strong>
               CCNA 1 Discovery: Networking for home and small Businesses.
             </li>
           </ul>
         </div>
   
-        <div class="card">
+        <div class="card-cert">
           <ul>
-            <li>
+            <li class="cert-logo">
               <img src="img/cisco.png.webp" alt="cisco logo">
             </li>
-            <li>
+            <li class="cert-info">
               <strong>July. 2012</strong>
               IT Essentials: PC Hardware and Software.
             </li>
@@ -488,7 +468,11 @@
             </li>
             <li>
               <div class="btn-lauch-site">
-                <a target="_blank" href="http://vinandros.com/surveyform/">Launch Website</a>
+                <a target="_blank" href="http://vinandros.com/surveyform/">
+                  <div>
+                    Launch Website
+                  </div> 
+                </a>
               </div>
             </li>
           </ul>
@@ -514,7 +498,11 @@
             </li>
             <li >
               <div class="btn-lauch-site">
-                <a target="_blank" href="http://vinandros.com/productlandingpage/">Launch Website</a>
+                <a target="_blank" href="http://vinandros.com/productlandingpage/">
+                  <div>
+                    Launch Website
+                  </div> 
+                </a>
               </div>
             </li>
           </ul>
@@ -540,7 +528,11 @@
             </li>
             <li>
               <div class="btn-lauch-site">
-                <a target="_blank" href="http://vinandros.com/technicaldocumentation/">Launch Website</a>
+                <a target="_blank" href="http://vinandros.com/technicaldocumentation/">
+                  <div>
+                    Launch Website
+                  </div> 
+                </a>
               </div>
             </li>
           </ul>
@@ -549,26 +541,31 @@
 
     <section id="social-media" class="main-section">
       <div class="section-header">
-        <h2>Chat me --></h2>
+        <h2>let's built something together!! and check out my social media.</h2>
       </div>
-      <a id="profile-link" target="_blank" href="https://github.com/vinandros">GitHub</a>
-      <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/kevin-alvaradov/">Linkedin</a>
-      <!--GitHub, Linkedin, Facebook, Instagram, soundcloud and vinadros facepage-->
-      <footer>
-        <p>&copy; 2020 Vin Andros.</p>
-      </footer>
+      <div id="social-media-content">
+        <div>
+          <a id="profile-link" target="_blank" href="https://github.com/vinandros">
+            <img class="social-icon" src="img/github-logo.png" alt="GitHub">
+          </a>
+        </div>
+        <div>
+          <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/kevin-alvaradov/">
+            <img class="social-icon" src="img/linkedin-logo.png" alt="Linkedin">
+          </a>
+        </div>
+        <div>
+          <a id="profile-link" target="_blank" href="https://www.instagram.com/vinandros/">
+            <img class="social-icon" src="img/instagram-logo.png" alt="Intagram">
+          </a>
+        </div>
+        <div>
+          <a id="profile-link" target="_blank" href="https://www.facebook.com/VinAndros">
+            <img class="social-icon" src="img/facebook-logo.svg" alt="FaceBook">
+          </a>
+        </div>
+      </div>
     </section>
-
-    <div id="stepper">
-      <span class="step-tiny"></span>
-      <span class="step-medium"></span>
-      <span class="step-normal"></span>
-      <span class="step-selected"></span>
-      <span class="step"></span>
-      <span class="step-normal"></span>
-      <span class="step-medium"></span>
-      <span class="step-tiny"></span>
-    </div>
   </main>
 
   
