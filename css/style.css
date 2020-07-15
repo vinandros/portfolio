@@ -23,12 +23,9 @@ a:hover{
 
 [href] {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-[href]:visited {
-    color: black;
-}
 
 img {
     max-width: 100%;
