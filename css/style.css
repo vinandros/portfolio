@@ -564,7 +564,7 @@ code {
 #social-media-content{
     display: flex;
     flex-direction: row;
-    margin-left: 25vw;
+    margin-left: 20vw;
     padding: 1rem;
 }
 
@@ -587,6 +587,12 @@ footer{
 /* social icons ------------------------------------------------------------------------------------------*/
 .social-icon{
     width: 30px;
+    height: 30px;
+    margin-left: 0.5rem;
+}
+
+.social-free{
+    width: 40px;
     height: 30px;
     margin-left: 0.5rem;
 }
